@@ -1,135 +1,249 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>CATALOGO INICIO</title>
+    <title>DESCRIPCION PRODUCTO</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="css/main.css">
     <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/94c3191242.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
-
 <body>
-    <header>
-        <nav class="navbar navbar-top navbar-default" role="navigation">
-            <a href="index.html">
-                <img alt="LOGO PAGINA" src="""> </a> <br>
-                <button>ACCEDER</button> <img src="" alt=" imagen usuario">
-                <form>
-                    <input type="text" name="as_word" placeholder="Buscar productos" />
-                    <button type="submit"> BUSCAR</button>
-                </form>
-        </nav>
-    </header>
-    <hr>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="50" height="50" >TecnoMars </a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Computadoras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Televisores </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Quienes Somos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Contactanos </a>
+              </li>
+            </ul>
+            </div>
+        </div>
+        <form class="d-flex ">
+            <input class="form-control me-1" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Buscar</button>
+          </form>
+</nav><br><br><br>
+<!--AQUI TENEMOS EL Carousel-->
+<header>
+    
+</header> <br>
 
     <!--EN SECTION  TENEMOS LA PARTE DEL NAVEGADOR, EN DONDE EL USUARIO PODRA
     HACER CLICK EN INICIO, CATALOGOS Y CONTACTOS, LA IDEA ES QUE CADA UNO PUEDA
 DIRECCIONARTE AL SITIO ESPECIFICO -->
-    <nav>
-        <ol>
-            <li>
-                <a href="index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="catalogoArticuloInicio.html">Catalogos</a>
-                <ol>
-                    <li>Celulares</li>
-                    <li>Computadoras</li>
-                    <li>Televisores</li>
-                </ol>
-            </li>
-            <li>
-                <a href="">Contactos</a>
-            </li>
-        </ol>
-    </nav>
-    <hr>
+    
     <aside>
-        <h1>CATEGORIA</h1>
-        <li><a href="">categoria 1</a></li>
-        <li><a href="">categoria 2</a></li>
-        <li><a href="">categoria 3</a></li>
-        <li><a href="">categoria 4</a></li>
-        <li><a href="">categoria 5</a></li>
-        <li><a href="">categoria 6</a></li>
-    </aside>
-    <div>
-        <h1>nombre del articulo</h1>
-        <a href="catalogodescripcionproducto.html"> <img src="" alt="imagen del articulo con enlace"></a>
-        <p>$PRECIO</p>
-        <em>descripcion</em>
+        <h1>CELULARES</h1>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A list item
+                  <span class="badge bg-primary rounded-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A second list item
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  A third list item
+                  <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    A second list item
+                    <span class="badge bg-primary rounded-pill">2</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                    A third list item
+                    <span class="badge bg-primary rounded-pill">1</span>
+                  </li>
+              </ul>
+        </div>
+        
+    </aside><br>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                  <div class="container-fluid">
+                    <img src="img/celulares/CELULARTCLT9NEGRO.jfif" alt="..." width="150px" height="200px">
+                  </div>
+                
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nombre del producto</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
     <hr>
-    <div>
-        <h1>nombre del articulo</h1>
-        <a href="catalogodescripcionproducto.html"> <img src="" alt="imagen del articulo con enlace"></a>
-        <p>$PRECIO</p>
-        <em>descripcion</em>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="container-fluid">
+                    <img src="img/celulares/CELULARTCLT9NEGRO.jfif" alt="..." width="150px" height="200px">
+                  </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
-    <hr>
-    <div>
-        <h1>nombre del articulo</h1>
-        <a href="catalogodescripcionproducto.html"> <img src="" alt="imagen del articulo con enlace"></a>
-        <p>$PRECIO</p>
-        <em>descripcion</em>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="container-fluid">
+                    <img src="img/celulares/CELULARTCLT9NEGRO.jfif" alt="..." width="150px" height="200px">
+                  </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
-    <hr>
-    <div>
-        <h1>nombre del articulo</h1>
-        <a href="catalogodescripcionproducto.html"> <img src="" alt="imagen del articulo con enlace"></a>
-        <p>$PRECIO</p>
-        <em>descripcion</em>
+    <div class="container">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="container-fluid">
+                    <img src="img/celulares/CELULARTCLT9NEGRO.jfif" alt="..." width="150px" height="200px">
+                  </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="container-fluid">
+                    <img src="img/celulares/CELULARTCLT9NEGRO.jfif" alt="..." width="150px" height="200px">
+                  </div>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
-    <table >
-        <tbody>
-            <td><a href=""><span>  1</span></a></td>
-            <td><a href=""><span>  2</span></a></td>
-            <td><a href=""><span>  3</span></a></td>
-            
-
-        </tbody>
-    </table>
-
-
-
-
-
-
-    <hr>
+    <div class="container">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+    </div><hr><hr><hr><hr><hr><hr><hr><hr>
     <!-- EN ESTE DIV VAMOS A TENER TODO RELACIONADO AL QUIENES SOMOS, MAPA DEL SITIO Y CONTACTO
 CADA UNO CON SU RESPECTIVA INFORMACION-->
-    <nav>
-        <div>
-            <ul>QUIENES SOMOS</ul>
-            <em>descripcion del quienes somos.</em>
-            <div>
-                <ul>MAPA DEL SITIO</ul>
-                <em>direccion del sitio</em>
-            </div>
-            <div>
-                <ul>CONTACTO</ul>
-                <p>
-                    <em>informacion del contacto</em>
-                </p>
-            </div>
+<div class="container-fluid">
+    <div class="card-group">
 
-    </nav>
-    <hr>
-    <!--AQUI TENDREMOS EL LOGO DE LAS REDES SOCIALES VINCULADAS CON CADA UNA A SU SITIO 
-PERTENECIENTE DEL COMERCIO-->
-    <div>
-        <h4 align="center">SIGUENOS</h4>
-        <div>
-            <img src="" alt="logo facebook"> <img src="" alt="logo twitter">
-            <img src="" alt="logo instagram">
+
+      <div class="card ">
+        <div class="text-center">
+          <img src="img/iconos/quienessomos.png" class=" img-fluid rounded-circle" alt="..." width="65px" height="100px" >
+
         </div>
+        <div class="card-body text-center">
+          <h5 class="card-title">Quienes Somos</h5>
+          <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+      </div>
+
+
+      <div class="card">
+        <div class="text-center">
+          <img src="img/iconos/googlemaps.png" class=" img-fluid rounded-circle " alt="..." width="100px" height="100px" >
+
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title">Nuestra Ubicacion</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+
+
+      <div class="card ">
+        <div class="text-center">
+          <img src="img/iconos/contacto.png" class=" img-fluid" alt="..." " width="100px" height="100px">
+
+        </div>
+        <div class="card-body text-center">
+          <h5 class="card-title">Contactanos</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+      </div>
     </div>
-    <hr>
-    <!--en el FOOTER TENDREMOS TODO LO QUE ES INFO PERTENECINETE AL SITIO WEB- SUS AUTORES POR EJ-->
+   </div> <br>
+   <!--AQUI TENDREMOS EL LOGO DE LAS REDES SOCIALES VINCULADAS CON CADA UNA A SU SITIO 
+PERTENECIENTE DEL COMERCIO-->
+<div>
+    <h1 align="center">SIGUENOS</h1>
+    <div class="container-fluid">
+        <div class="text-center">
+          <a href=""><button><i class="fab fa-facebook"></i></button></a>
+          <a href=""><button><i class="fab fa-instagram-square"></i></button></a>
+          <a href=""><button><i class="fab fa-twitter"></i></button></a>
+        </div>
+          </div>
+</div><br>
+<!--en el FOOTER TENDREMOS TODO LO QUE ES INFO PERTENECINETE AL SITIO WEB- SUS AUTORES POR EJ-->
     <footer>
-        <small>Copyright © 1999-2021 COMERCIO ELECTRONICO.</small>
+        <div class="text-center footer" >Copyright © 1999-2021 COMERCIO ELECTRONICO.</div>
     </footer>
 </body>
 

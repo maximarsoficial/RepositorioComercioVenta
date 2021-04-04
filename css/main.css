@@ -1,0 +1,40 @@
+
+body{
+    background-image:  url(../img/fondo.jpg) ;
+    background-size: cover;
+    min-width: 500px;
+    }
+    /* .carouselExampleSlidesOnly{
+background-image: url(../img/sliders/slider1.jpg);
+background-size: cover;
+    min-width: 500px;
+    } */
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.navbar{
+    box-shadow: 3px 3px 5px #000;
+    opacity: .9;
+}
+.cate{
+    text-align: left;
+}
+.carousel-inner img {
+    width: 100px;
+    max-height: 400px;
+}
+
+.carousel-inner{
+ height: 400px;
+}
+
+.footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    color: blanchedalmond;
+}
